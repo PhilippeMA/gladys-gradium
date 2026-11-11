@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-11-11
+
 ### Added
 
 - Gradium as a text-to-speech provider for Gladys (Gladys 5.3.0 or later): the
@@ -23,4 +25,5 @@ the notes of the version's GitHub Release.
   voices" button, showing the identifiers of the available voices.
 - Long WAV clips are resampled to stay under the 5 MB limit of Gladys.
 
-[Unreleased]: https://github.com/PhilippeMA/gladys-gradium/commits/main
+[Unreleased]: https://github.com/PhilippeMA/gladys-gradium/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/PhilippeMA/gladys-gradium/releases/tag/v1.0.1
