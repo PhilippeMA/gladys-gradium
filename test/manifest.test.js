@@ -30,6 +30,10 @@ test('the integration is a text-to-speech provider for Gladys >= 5.3.0', () => {
   assert.ok(major > 5 || (major === 5 && minor >= 3), `got "${manifest.gladys_version}"`);
 });
 
+test('the manifest declares the cloud transport: the voices come from the Gradium API', () => {
+  assert.deepEqual(manifest.transports, ['cloud']);
+});
+
 test('every manifest action has a handler, and vice versa', () => {
   assert.deepEqual(keysOf(manifest.actions).sort(), Object.keys(ACTIONS).sort());
 });
