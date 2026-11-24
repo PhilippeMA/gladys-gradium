@@ -11,6 +11,7 @@
   "gladys_version": ">=5.3.0",
   "cover_image": "https://raw.githubusercontent.com/PhilippeMA/gladys-gradium/main/cover.jpg",
   "categories": ["assistants"],
+  "transports": ["cloud"],
   "config_schema": [
     {
       "key": "intro",

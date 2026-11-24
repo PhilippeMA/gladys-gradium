@@ -10,6 +10,11 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+### Changed
+
+- Declared `transports: ["cloud"]` (the Gradium API): the Cloud filter of the
+  Gladys catalog now finds the integration.
+
 ## [1.0.1] - 2026-11-11
 
 ### Added
